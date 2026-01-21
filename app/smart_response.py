@@ -112,7 +112,7 @@ class SmartResponseEngine:
         normalized_input = self._normalize_text(user_input)
         
         # CRITICAL: Physical health keywords - DO NOT match from dataset
-        # Let the fallback system in girlfriend_ai.py handle these properly
+        # Let the fallback system in tara_ai.py handle these properly
         physical_health_keywords = [
             'headache', 'stomach', 'fever', 'sick', 'hurt', 'pain', 'ache',
             'bleeding', 'nauseous', 'dizzy', 'injury', 'injured', 'broken',
