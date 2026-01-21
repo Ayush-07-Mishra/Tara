@@ -1,0 +1,33 @@
+🎯 LIVE RESPONSE DEMONSTRATION
+================================
+
+Testing the key scenarios that were broken:
+
+1. WORK STRESS (Should get empathy, NOT doctor):
+   Input: "my manager scolded me"
+   Expected: Empathy + validation
+   
+2. PHYSICAL PAIN (Should get medical concern):
+   Input: "i have a headache"
+   Expected: Medical concern + care
+   
+3. WHY QUESTION (Should answer directly):
+   Input: "why should i see a doctor"
+   Expected: Clarification + apology
+   
+4. WORK STRESS #2:
+   Input: "i'm so stressed from work"
+   Expected: Support + listening
+   
+5. PHYSICAL PAIN #2:
+   Input: "my back is killing me"
+   Expected: Medical concern (NOT "welcome back")
+
+Test these in the browser at http://localhost:8501
+
+Expected Results:
+✅ NO "go see a doctor" for emotional issues
+✅ Medical concern for physical pain
+✅ Direct answers to "why" questions
+✅ Empathy for work stress
+✅ Context-appropriate responses throughout

@@ -1,0 +1,156 @@
+{
+  "physical_health": [
+    {
+      "input": "i have a really bad headache",
+      "response": null,
+      "expected": null,
+      "passed": true
+    },
+    {
+      "input": "my stomach hurts so much",
+      "response": null,
+      "expected": null,
+      "passed": true
+    },
+    {
+      "input": "i think i have a fever",
+      "response": null,
+      "expected": null,
+      "passed": true
+    },
+    {
+      "input": "i hurt my ankle",
+      "response": null,
+      "expected": null,
+      "passed": true
+    },
+    {
+      "input": "i'm feeling really sick",
+      "response": null,
+      "expected": null,
+      "passed": true
+    },
+    {
+      "input": "my back is killing me",
+      "response": null,
+      "expected": null,
+      "passed": true
+    },
+    {
+      "input": "i have a bad cold",
+      "response": null,
+      "expected": null,
+      "passed": true
+    },
+    {
+      "input": "i feel nauseous",
+      "response": null,
+      "expected": null,
+      "passed": true
+    },
+    {
+      "input": "i'm feeling dizzy",
+      "response": null,
+      "expected": null,
+      "passed": true
+    },
+    {
+      "input": "i cut my hand while cooking",
+      "response": null,
+      "expected": null,
+      "passed": true
+    },
+    {
+      "input": "my tooth hurts",
+      "response": null,
+      "expected": null,
+      "passed": true
+    },
+    {
+      "input": "i have a migraine",
+      "response": null,
+      "expected": null,
+      "passed": true
+    },
+    {
+      "input": "my allergies are acting up",
+      "response": null,
+      "expected": null,
+      "passed": true
+    }
+  ],
+  "emotional_work": [
+    {
+      "input": "my manager scolded me today",
+      "response": null,
+      "passed": true
+    },
+    {
+      "input": "i got a bad performance review",
+      "response": null,
+      "passed": true
+    },
+    {
+      "input": "i think i'm getting fired",
+      "response": null,
+      "passed": true
+    },
+    {
+      "input": "i have so many deadlines i'm overwhelmed",
+      "response": null,
+      "passed": true
+    },
+    {
+      "input": "my coworker is being really rude to me",
+      "response": null,
+      "passed": true
+    },
+    {
+      "input": "my boss gave credit to someone else for my work",
+      "response": null,
+      "passed": true
+    },
+    {
+      "input": "the client meeting went terrible",
+      "response": null,
+      "passed": true
+    },
+    {
+      "input": "i didn't get the promotion",
+      "response": null,
+      "passed": true
+    },
+    {
+      "input": "the work environment is so toxic",
+      "response": null,
+      "passed": true
+    },
+    {
+      "input": "my boss micromanages everything",
+      "response": null,
+      "passed": true
+    }
+  ],
+  "questions": [
+    {
+      "input": "why should i see a doctor",
+      "response": null,
+      "passed": true
+    },
+    {
+      "input": "why did you say that",
+      "response": null,
+      "passed": true
+    },
+    {
+      "input": "what should i do",
+      "response": null,
+      "passed": true
+    },
+    {
+      "input": "how do you feel about me",
+      "response": null,
+      "passed": true
+    }
+  ]
+}

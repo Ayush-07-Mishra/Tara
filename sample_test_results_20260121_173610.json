@@ -1,0 +1,43 @@
+{
+  "summary": {
+    "work": {
+      "passed": 15,
+      "failed": 0,
+      "total": 15
+    },
+    "health": {
+      "passed": 16,
+      "failed": 0,
+      "total": 16
+    },
+    "emotion": {
+      "passed": 14,
+      "failed": 0,
+      "total": 14
+    },
+    "relationship": {
+      "passed": 4,
+      "failed": 0,
+      "total": 4
+    },
+    "question": {
+      "passed": 5,
+      "failed": 0,
+      "total": 5
+    },
+    "casual": {
+      "passed": 6,
+      "failed": 0,
+      "total": 6
+    },
+    "romance": {
+      "passed": 5,
+      "failed": 0,
+      "total": 5
+    }
+  },
+  "failures": [],
+  "total_tested": 65,
+  "passed": 65,
+  "failed": 0
+}

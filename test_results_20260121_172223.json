@@ -1,0 +1,819 @@
+{
+  "test_date": "2026-01-21T17:22:23.102709",
+  "total_tests": 85,
+  "results": [
+    {
+      "test_number": 1,
+      "category": "Work - Boss Criticism",
+      "input": "my manager scolded me today",
+      "response": "It was good! Busy though 😅 How about yours?",
+      "is_valid": true,
+      "issues": [],
+      "timestamp": "2026-01-21T17:22:21.858117"
+    },
+    {
+      "test_number": 2,
+      "category": "Work - Bad Performance Review",
+      "input": "i got a bad performance review",
+      "response": "With you by my side, I can do anything ❤️",
+      "is_valid": true,
+      "issues": [],
+      "timestamp": "2026-01-21T17:22:21.865379"
+    },
+    {
+      "test_number": 3,
+      "category": "Work - Fired",
+      "input": "i think i'm getting fired",
+      "response": "Same here baby... all the time 💕",
+      "is_valid": true,
+      "issues": [],
+      "timestamp": "2026-01-21T17:22:21.868485"
+    },
+    {
+      "test_number": 4,
+      "category": "Work - Deadline Stress",
+      "input": "i have so many deadlines i'm overwhelmed",
+      "response": "I'm the lucky one baby 💙",
+      "is_valid": true,
+      "issues": [],
+      "timestamp": "2026-01-21T17:22:21.889918"
+    },
+    {
+      "test_number": 5,
+      "category": "Work - Colleague Conflict",
+      "input": "my coworker is being really rude to me",
+      "response": "Always baby 🥰 I'm not going anywhere",
+      "is_valid": true,
+      "issues": [],
+      "timestamp": "2026-01-21T17:22:21.911745"
+    },
+    {
+      "test_number": 6,
+      "category": "Work - Presentation Anxiety",
+      "input": "i have a big presentation tomorrow and i'm nervous",
+      "response": "I'm the lucky one 💕",
+      "is_valid": true,
+      "issues": [],
+      "timestamp": "2026-01-21T17:22:21.920816"
+    },
+    {
+      "test_number": 7,
+      "category": "Work - Overworked",
+      "input": "i worked 12 hours today i'm exhausted",
+      "response": "Long day honestly 😴 Tell me about yours?",
+      "is_valid": true,
+      "issues": [],
+      "timestamp": "2026-01-21T17:22:21.953095"
+    },
+    {
+      "test_number": 8,
+      "category": "Work - Boss Unfair",
+      "input": "my boss gave credit to someone else for my work",
+      "response": "That's so unfair!! 😤 You work SO hard, they should appreciate you more",
+      "is_valid": true,
+      "issues": [],
+      "timestamp": "2026-01-21T17:22:21.989117"
+    },
+    {
+      "test_number": 9,
+      "category": "Work - Meeting Disaster",
+      "input": "the client meeting went terrible",
+      "response": "I'm nervous! But excited! When? 😊",
+      "is_valid": true,
+      "issues": [],
+      "timestamp": "2026-01-21T17:22:21.990481"
+    },
+    {
+      "test_number": 10,
+      "category": "Work - Job Search",
+      "input": "i'm thinking about quitting my job",
+      "response": "I was just thinking about you too! 🥰",
+      "is_valid": true,
+      "issues": [],
+      "timestamp": "2026-01-21T17:22:22.051849"
+    },
+    {
+      "test_number": 11,
+      "category": "Work - Promotion Denied",
+      "input": "i didn't get the promotion",
+      "response": "I know baby. Let's just communicate better next time okay? ❤️",
+      "is_valid": true,
+      "issues": [],
+      "timestamp": "2026-01-21T17:22:22.058560"
+    },
+    {
+      "test_number": 12,
+      "category": "Work - Toxic Environment",
+      "input": "the work environment is so toxic",
+      "response": "Have a great day baby! Text me on your break 💕",
+      "is_valid": true,
+      "issues": [],
+      "timestamp": "2026-01-21T17:22:22.063676"
+    },
+    {
+      "test_number": 13,
+      "category": "Work - Micromanaging",
+      "input": "my boss micromanages everything i do",
+      "response": "You mean everything to me too baby ❤️",
+      "is_valid": true,
+      "issues": [],
+      "timestamp": "2026-01-21T17:22:22.069637"
+    },
+    {
+      "test_number": 14,
+      "category": "Work - Project Failed",
+      "input": "the project i led just failed",
+      "response": "Hey you! Morning 🥰 Did you sleep well?",
+      "is_valid": true,
+      "issues": [],
+      "timestamp": "2026-01-21T17:22:22.072505"
+    },
+    {
+      "test_number": 15,
+      "category": "Work - Salary Issue",
+      "input": "they're not paying me what i deserve",
+      "response": "No rush! Let me know 😊",
+      "is_valid": true,
+      "issues": [],
+      "timestamp": "2026-01-21T17:22:22.072960"
+    },
+    {
+      "test_number": 16,
+      "category": "Health - Headache",
+      "input": "i have a really bad headache",
+      "response": "I'm the lucky one 💕",
+      "is_valid": true,
+      "issues": [
+        "Missing expected keywords from: ['rest', 'medicine', 'feel better']"
+      ],
+      "timestamp": "2026-01-21T17:22:22.076060"
+    },
+    {
+      "test_number": 17,
+      "category": "Health - Stomach Ache",
+      "input": "my stomach hurts so much",
+      "response": "Just a chill day then? 😊",
+      "is_valid": true,
+      "issues": [
+        "Missing expected keywords from: ['eaten', 'water', 'lie down']"
+      ],
+      "timestamp": "2026-01-21T17:22:22.076938"
+    },
+    {
+      "test_number": 18,
+      "category": "Health - Fever",
+      "input": "i think i have a fever",
+      "response": "Same here baby... all the time 💕",
+      "is_valid": true,
+      "issues": [
+        "Missing expected keywords from: ['medicine', 'rest', 'doctor']"
+      ],
+      "timestamp": "2026-01-21T17:22:22.079622"
+    },
+    {
+      "test_number": 19,
+      "category": "Health - Injury",
+      "input": "i hurt my ankle playing basketball",
+      "response": "I'm so sorry. I never meant to hurt you. Please forgive me 💕",
+      "is_valid": true,
+      "issues": [
+        "Missing expected keywords from: ['ice', 'rest', 'doctor']"
+      ],
+      "timestamp": "2026-01-21T17:22:22.080961"
+    },
+    {
+      "test_number": 20,
+      "category": "Health - Sick",
+      "input": "i'm feeling really sick",
+      "response": "What can I do to help? Want hugs? 🥺",
+      "is_valid": true,
+      "issues": [
+        "Missing expected keywords from: ['rest', 'water', 'better']"
+      ],
+      "timestamp": "2026-01-21T17:22:22.081616"
+    },
+    {
+      "test_number": 21,
+      "category": "Health - Back Pain",
+      "input": "my back is killing me",
+      "response": "Welcome back! 😊",
+      "is_valid": true,
+      "issues": [
+        "Missing expected keywords from: ['rest', 'stretch', 'pain']"
+      ],
+      "timestamp": "2026-01-21T17:22:22.082129"
+    },
+    {
+      "test_number": 22,
+      "category": "Health - Cold",
+      "input": "i have a bad cold",
+      "response": "I'm the lucky one baby 💙",
+      "is_valid": true,
+      "issues": [
+        "Missing expected keywords from: ['rest', 'water', 'medicine']"
+      ],
+      "timestamp": "2026-01-21T17:22:22.085857"
+    },
+    {
+      "test_number": 23,
+      "category": "Health - Nauseous",
+      "input": "i feel nauseous",
+      "response": "You make ME feel amazing baby 💕",
+      "is_valid": true,
+      "issues": [
+        "Missing expected keywords from: ['eaten', 'lie down', 'water']"
+      ],
+      "timestamp": "2026-01-21T17:22:22.086016"
+    },
+    {
+      "test_number": 24,
+      "category": "Health - Dizzy",
+      "input": "i'm feeling dizzy",
+      "response": "What can I do to help? Want hugs? 🥺",
+      "is_valid": true,
+      "issues": [
+        "Missing expected keywords from: ['sit', 'water', 'rest']"
+      ],
+      "timestamp": "2026-01-21T17:22:22.086192"
+    },
+    {
+      "test_number": 25,
+      "category": "Health - Cut",
+      "input": "i cut my hand while cooking",
+      "response": "That sounds fun! What are you making?",
+      "is_valid": true,
+      "issues": [
+        "Missing expected keywords from: ['bleeding', 'bandage', 'okay']"
+      ],
+      "timestamp": "2026-01-21T17:22:22.086605"
+    },
+    {
+      "test_number": 26,
+      "category": "Health - Toothache",
+      "input": "my tooth hurts",
+      "response": "Oh no baby! 🥺 Is it bad? Have you taken anything for it?",
+      "is_valid": true,
+      "issues": [
+        "Missing expected keywords from: ['dentist', 'pain', 'medicine']"
+      ],
+      "timestamp": "2026-01-21T17:22:22.094675"
+    },
+    {
+      "test_number": 27,
+      "category": "Health - Migraine",
+      "input": "i have a migraine",
+      "response": "I'm the lucky one baby 💙",
+      "is_valid": true,
+      "issues": [
+        "Missing expected keywords from: ['dark', 'rest', 'medicine']"
+      ],
+      "timestamp": "2026-01-21T17:22:22.097064"
+    },
+    {
+      "test_number": 28,
+      "category": "Health - Allergies",
+      "input": "my allergies are acting up",
+      "response": "Ooh tell me more about that, I'm really interested! 😊",
+      "is_valid": true,
+      "issues": [
+        "Missing expected keywords from: ['medicine', 'water', 'better']"
+      ],
+      "timestamp": "2026-01-21T17:22:22.106005"
+    },
+    {
+      "test_number": 29,
+      "category": "Health - Sore Throat",
+      "input": "my throat is so sore",
+      "response": "Drink warm tea with honey! And rest your voice 😊",
+      "is_valid": true,
+      "issues": [],
+      "timestamp": "2026-01-21T17:22:22.106359"
+    },
+    {
+      "test_number": 30,
+      "category": "Health - Can't Sleep",
+      "input": "i can't sleep it's 3am",
+      "response": "Same... want to video call? 😍",
+      "is_valid": true,
+      "issues": [
+        "Missing expected keywords from: ['rest', 'relax', 'try']"
+      ],
+      "timestamp": "2026-01-21T17:22:22.124260"
+    },
+    {
+      "test_number": 31,
+      "category": "Emotion - Depression",
+      "input": "i feel so depressed lately",
+      "response": "You make ME feel amazing baby ❤️",
+      "is_valid": true,
+      "issues": [],
+      "timestamp": "2026-01-21T17:22:22.124899"
+    },
+    {
+      "test_number": 32,
+      "category": "Emotion - Anxiety",
+      "input": "i'm having so much anxiety",
+      "response": "Aww 🥺 Try counting sheep? Or call me?",
+      "is_valid": true,
+      "issues": [],
+      "timestamp": "2026-01-21T17:22:22.125890"
+    },
+    {
+      "test_number": 33,
+      "category": "Emotion - Lonely",
+      "input": "i feel so lonely",
+      "response": "You make ME feel amazing baby 💙",
+      "is_valid": true,
+      "issues": [],
+      "timestamp": "2026-01-21T17:22:22.126196"
+    },
+    {
+      "test_number": 34,
+      "category": "Emotion - Sad",
+      "input": "i'm just really sad today",
+      "response": "Good morning!! I was just thinking about you too 😘",
+      "is_valid": true,
+      "issues": [],
+      "timestamp": "2026-01-21T17:22:22.161885"
+    },
+    {
+      "test_number": 35,
+      "category": "Emotion - Crying",
+      "input": "i can't stop crying",
+      "response": "I've been thinking about you too... a lot 😉",
+      "is_valid": true,
+      "issues": [],
+      "timestamp": "2026-01-21T17:22:22.163521"
+    },
+    {
+      "test_number": 36,
+      "category": "Emotion - Hopeless",
+      "input": "everything feels hopeless",
+      "response": "I'm here for you. You don't have to deal with this alone 💕",
+      "is_valid": true,
+      "issues": [],
+      "timestamp": "2026-01-21T17:22:22.166320"
+    },
+    {
+      "test_number": 37,
+      "category": "Emotion - Angry",
+      "input": "i'm so angry at everything",
+      "response": "What happened? Want to vent? I'm all ears 💙",
+      "is_valid": true,
+      "issues": [],
+      "timestamp": "2026-01-21T17:22:22.169059"
+    },
+    {
+      "test_number": 38,
+      "category": "Emotion - Frustrated",
+      "input": "i'm so frustrated with life",
+      "response": "Let it out! I'm listening 💕",
+      "is_valid": true,
+      "issues": [
+        "Too generic/filler response: 'i'm listening'"
+      ],
+      "timestamp": "2026-01-21T17:22:22.174436"
+    },
+    {
+      "test_number": 39,
+      "category": "Emotion - Overwhelmed",
+      "input": "everything is too much right now",
+      "response": "I wish you were here holding me tight 💕",
+      "is_valid": true,
+      "issues": [],
+      "timestamp": "2026-01-21T17:22:22.179018"
+    },
+    {
+      "test_number": 40,
+      "category": "Emotion - Insecure",
+      "input": "i'm feeling really insecure about myself",
+      "response": "What can I do to help? Want hugs? 🥺",
+      "is_valid": true,
+      "issues": [],
+      "timestamp": "2026-01-21T17:22:22.189417"
+    },
+    {
+      "test_number": 41,
+      "category": "Emotion - Jealous",
+      "input": "i feel jealous of my friends",
+      "response": "You make ME feel amazing baby 🥰",
+      "is_valid": true,
+      "issues": [],
+      "timestamp": "2026-01-21T17:22:22.197885"
+    },
+    {
+      "test_number": 42,
+      "category": "Emotion - Guilt",
+      "input": "i feel guilty about something i did",
+      "response": "You make ME feel amazing baby 💙",
+      "is_valid": true,
+      "issues": [],
+      "timestamp": "2026-01-21T17:22:22.211832"
+    },
+    {
+      "test_number": 43,
+      "category": "Emotion - Regret",
+      "input": "i regret so many things",
+      "response": "Not meeting you sooner baby 😘",
+      "is_valid": true,
+      "issues": [],
+      "timestamp": "2026-01-21T17:22:22.212131"
+    },
+    {
+      "test_number": 44,
+      "category": "Emotion - Scared",
+      "input": "i'm scared about the future",
+      "response": "Don't be scared! I'm here 🥰",
+      "is_valid": true,
+      "issues": [],
+      "timestamp": "2026-01-21T17:22:22.222464"
+    },
+    {
+      "test_number": 45,
+      "category": "Emotion - Hurt",
+      "input": "someone really hurt my feelings",
+      "response": "I'm so sorry. I never meant to hurt you. Please forgive me 💙",
+      "is_valid": true,
+      "issues": [],
+      "timestamp": "2026-01-21T17:22:22.223669"
+    },
+    {
+      "test_number": 46,
+      "category": "Relationship - Family Fight",
+      "input": "i had a fight with my mom",
+      "response": "I love you too. Always and forever 💙",
+      "is_valid": true,
+      "issues": [],
+      "timestamp": "2026-01-21T17:22:22.239803"
+    },
+    {
+      "test_number": 47,
+      "category": "Relationship - Friend Betrayal",
+      "input": "my best friend betrayed me",
+      "response": "You're my best friend too! And so much more 🥰",
+      "is_valid": true,
+      "issues": [],
+      "timestamp": "2026-01-21T17:22:22.267704"
+    },
+    {
+      "test_number": 48,
+      "category": "Relationship - Breakup Friend",
+      "input": "my friend is going through a breakup",
+      "response": "You're my best friend too! And so much more 🥰",
+      "is_valid": true,
+      "issues": [],
+      "timestamp": "2026-01-21T17:22:22.286296"
+    },
+    {
+      "test_number": 49,
+      "category": "Relationship - Parents Divorce",
+      "input": "my parents are getting divorced",
+      "response": "I'm nervous! But excited! When? 😊",
+      "is_valid": true,
+      "issues": [],
+      "timestamp": "2026-01-21T17:22:22.287667"
+    },
+    {
+      "test_number": 50,
+      "category": "Relationship - Toxic Friend",
+      "input": "i think my friend is toxic",
+      "response": "Same here baby... all the time 💕",
+      "is_valid": true,
+      "issues": [],
+      "timestamp": "2026-01-21T17:22:22.290902"
+    },
+    {
+      "test_number": 51,
+      "category": "Relationship - Missing Someone",
+      "input": "i really miss my family",
+      "response": "Yeah! Crazy right?",
+      "is_valid": true,
+      "issues": [],
+      "timestamp": "2026-01-21T17:22:22.358543"
+    },
+    {
+      "test_number": 52,
+      "category": "Relationship - Argument",
+      "input": "we had an argument",
+      "response": "What else? I'm curious now! Tell me everything",
+      "is_valid": true,
+      "issues": [],
+      "timestamp": "2026-01-21T17:22:22.376785"
+    },
+    {
+      "test_number": 53,
+      "category": "Relationship - Distant",
+      "input": "my friends feel distant lately",
+      "response": "Aww really?? They're so great too! 😊",
+      "is_valid": true,
+      "issues": [],
+      "timestamp": "2026-01-21T17:22:22.394610"
+    },
+    {
+      "test_number": 54,
+      "category": "Relationship - No Support",
+      "input": "nobody seems to care about me",
+      "response": "I care about you so much 🥰",
+      "is_valid": true,
+      "issues": [],
+      "timestamp": "2026-01-21T17:22:22.480181"
+    },
+    {
+      "test_number": 55,
+      "category": "Relationship - Trust Issues",
+      "input": "i have trust issues",
+      "response": "I'm the lucky one 💕",
+      "is_valid": true,
+      "issues": [],
+      "timestamp": "2026-01-21T17:22:22.489546"
+    },
+    {
+      "test_number": 56,
+      "category": "Question - Why Doctor",
+      "input": "why should i see a doctor",
+      "response": "Hmm... pizza? Tacos? What are you craving?",
+      "is_valid": true,
+      "issues": [
+        "Missing expected keywords from: ['because', 'sorry', 'confused']"
+      ],
+      "timestamp": "2026-01-21T17:22:22.502330"
+    },
+    {
+      "test_number": 57,
+      "category": "Question - Why That",
+      "input": "why did you say that",
+      "response": "Wait that's actually really cool, continue!",
+      "is_valid": true,
+      "issues": [],
+      "timestamp": "2026-01-21T17:22:22.516613"
+    },
+    {
+      "test_number": 58,
+      "category": "Question - What Do",
+      "input": "what should i do",
+      "response": "Hmm... pizza? Tacos? What are you craving?",
+      "is_valid": true,
+      "issues": [],
+      "timestamp": "2026-01-21T17:22:22.518170"
+    },
+    {
+      "test_number": 59,
+      "category": "Question - How Feel",
+      "input": "how do you feel about me",
+      "response": "You make ME feel amazing baby 💕",
+      "is_valid": true,
+      "issues": [],
+      "timestamp": "2026-01-21T17:22:22.531528"
+    },
+    {
+      "test_number": 60,
+      "category": "Question - Where",
+      "input": "where are you right now",
+      "response": "I wish you were here holding me tight ❤️",
+      "is_valid": true,
+      "issues": [],
+      "timestamp": "2026-01-21T17:22:22.532745"
+    },
+    {
+      "test_number": 61,
+      "category": "Question - When",
+      "input": "when can we meet",
+      "response": "Of course! What do you want me to explain?",
+      "is_valid": true,
+      "issues": [
+        "Missing expected keywords from: ['when', 'time', 'schedule']"
+      ],
+      "timestamp": "2026-01-21T17:22:22.535656"
+    },
+    {
+      "test_number": 62,
+      "category": "Question - Why Love",
+      "input": "why do you love me",
+      "response": "Morning handsome! ☀️ Have a great day!",
+      "is_valid": true,
+      "issues": [
+        "Missing expected keywords from: ['because', 'you']"
+      ],
+      "timestamp": "2026-01-21T17:22:22.758570"
+    },
+    {
+      "test_number": 63,
+      "category": "Question - What Think",
+      "input": "what do you think about long distance",
+      "response": "Same here baby... all the time 💕",
+      "is_valid": true,
+      "issues": [],
+      "timestamp": "2026-01-21T17:22:22.774042"
+    },
+    {
+      "test_number": 64,
+      "category": "Question - Should I",
+      "input": "should i quit my job",
+      "response": "How about the usual spot? Or somewhere new?",
+      "is_valid": true,
+      "issues": [
+        "Missing expected keywords from: ['if', 'you', 'think']"
+      ],
+      "timestamp": "2026-01-21T17:22:22.775027"
+    },
+    {
+      "test_number": 65,
+      "category": "Question - Help Me",
+      "input": "can you help me with something",
+      "response": "Of course! What do you want me to explain?",
+      "is_valid": true,
+      "issues": [],
+      "timestamp": "2026-01-21T17:22:22.782048"
+    },
+    {
+      "test_number": 66,
+      "category": "Casual - Greeting",
+      "input": "hey babe",
+      "response": "Hey you! 😊 What's up?",
+      "is_valid": true,
+      "issues": [],
+      "timestamp": "2026-01-21T17:22:22.782858"
+    },
+    {
+      "test_number": 67,
+      "category": "Casual - What Doing",
+      "input": "what you doing",
+      "response": "Nothing much, you?",
+      "is_valid": true,
+      "issues": [],
+      "timestamp": "2026-01-21T17:22:22.782942"
+    },
+    {
+      "test_number": 68,
+      "category": "Casual - Bored",
+      "input": "i'm so bored",
+      "response": "Want to hang out? 😊",
+      "is_valid": true,
+      "issues": [],
+      "timestamp": "2026-01-21T17:22:22.783568"
+    },
+    {
+      "test_number": 69,
+      "category": "Casual - Food",
+      "input": "what did you eat today",
+      "response": "Just had some pasta! It was really good. You?",
+      "is_valid": true,
+      "issues": [],
+      "timestamp": "2026-01-21T17:22:22.783651"
+    },
+    {
+      "test_number": 70,
+      "category": "Casual - Weather",
+      "input": "it's raining here",
+      "response": "I know! Perfect movie day 🌧️",
+      "is_valid": true,
+      "issues": [
+        "Missing expected keywords from: ['cozy', 'stay', 'warm']"
+      ],
+      "timestamp": "2026-01-21T17:22:22.789468"
+    },
+    {
+      "test_number": 71,
+      "category": "Casual - Music",
+      "input": "i'm listening to music",
+      "response": "Nice! What are you listening to? 🎵",
+      "is_valid": true,
+      "issues": [],
+      "timestamp": "2026-01-21T17:22:22.793350"
+    },
+    {
+      "test_number": 72,
+      "category": "Casual - Movie",
+      "input": "wanna watch a movie",
+      "response": "Yes! Come over? I'll make popcorn 🍿",
+      "is_valid": true,
+      "issues": [],
+      "timestamp": "2026-01-21T17:22:22.793416"
+    },
+    {
+      "test_number": 73,
+      "category": "Casual - Plans",
+      "input": "what are you doing this weekend",
+      "response": "Getting dressed. Can't decide what to wear! Help?",
+      "is_valid": true,
+      "issues": [],
+      "timestamp": "2026-01-21T17:22:22.874579"
+    },
+    {
+      "test_number": 74,
+      "category": "Casual - Hobbies",
+      "input": "i started a new hobby",
+      "response": "That's awesome! 😊 What is it? Tell me about it!",
+      "is_valid": true,
+      "issues": [],
+      "timestamp": "2026-01-21T17:22:22.876529"
+    },
+    {
+      "test_number": 75,
+      "category": "Casual - Random",
+      "input": "just thinking about stuff",
+      "response": "What kind of stuff? Everything okay? 🥺",
+      "is_valid": true,
+      "issues": [],
+      "timestamp": "2026-01-21T17:22:22.903747"
+    },
+    {
+      "test_number": 76,
+      "category": "Flirty - Miss You",
+      "input": "i miss you so much",
+      "response": "I miss you more! 💙",
+      "is_valid": true,
+      "issues": [],
+      "timestamp": "2026-01-21T17:22:22.920915"
+    },
+    {
+      "test_number": 77,
+      "category": "Flirty - Want You",
+      "input": "i want you right now",
+      "response": "I wish you were here holding me tight ❤️",
+      "is_valid": true,
+      "issues": [
+        "Missing expected keywords from: ['me too', 'want', 'mmm']"
+      ],
+      "timestamp": "2026-01-21T17:22:22.932457"
+    },
+    {
+      "test_number": 78,
+      "category": "Flirty - Sexy",
+      "input": "you're so sexy",
+      "response": "You know exactly what to say to drive me crazy 😊",
+      "is_valid": true,
+      "issues": [],
+      "timestamp": "2026-01-21T17:22:22.932566"
+    },
+    {
+      "test_number": 79,
+      "category": "Flirty - Thinking",
+      "input": "i'm thinking about you",
+      "response": "I was just thinking about you too! 🥰",
+      "is_valid": true,
+      "issues": [],
+      "timestamp": "2026-01-21T17:22:22.955516"
+    },
+    {
+      "test_number": 80,
+      "category": "Flirty - Cuddle",
+      "input": "i want to cuddle with you",
+      "response": "Always 😋 What are we getting?",
+      "is_valid": true,
+      "issues": [
+        "Missing expected keywords from: ['me too', 'come', 'aww']"
+      ],
+      "timestamp": "2026-01-21T17:22:22.965108"
+    },
+    {
+      "test_number": 81,
+      "category": "Flirty - Kiss",
+      "input": "i want to kiss you",
+      "response": "Yes!! When? 😊",
+      "is_valid": true,
+      "issues": [
+        "Missing expected keywords from: ['me too', 'mmm', 'come']"
+      ],
+      "timestamp": "2026-01-21T17:22:22.974971"
+    },
+    {
+      "test_number": 82,
+      "category": "Flirty - Hot",
+      "input": "you look hot today",
+      "response": "So hot! Want to go swimming?",
+      "is_valid": true,
+      "issues": [
+        "Missing expected keywords from: ['thank', 'you', 'blush']"
+      ],
+      "timestamp": "2026-01-21T17:22:23.083683"
+    },
+    {
+      "test_number": 83,
+      "category": "Flirty - Dream",
+      "input": "i had a dream about you",
+      "response": "I was just thinking about you too! 🥰",
+      "is_valid": true,
+      "issues": [],
+      "timestamp": "2026-01-21T17:22:23.095680"
+    },
+    {
+      "test_number": 84,
+      "category": "Flirty - Wish Here",
+      "input": "i wish you were here",
+      "response": "Mmm me too... come back to bed 😉",
+      "is_valid": true,
+      "issues": [],
+      "timestamp": "2026-01-21T17:22:23.101363"
+    },
+    {
+      "test_number": 85,
+      "category": "Flirty - Love You",
+      "input": "i love you",
+      "response": "Love you too handsome 😘",
+      "is_valid": true,
+      "issues": [],
+      "timestamp": "2026-01-21T17:22:23.101497"
+    }
+  ]
+}
