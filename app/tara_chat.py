@@ -1,6 +1,6 @@
 """
-AI Girlfriend Chat - Private, Personal, Unrestricted
-Fast responses optimized for M2 Pro
+Tara AI - Your Personal AI Companion
+Fast, intelligent, caring conversations
 """
 
 import streamlit as st
@@ -11,11 +11,11 @@ from datetime import datetime
 # Add app directory to path
 sys.path.insert(0, os.path.dirname(__file__))
 
-from girlfriend_ai import GirlfriendAI
+from tara_ai import TaraAI
 
 # Page configuration
 st.set_page_config(
-    page_title="Your AI Girlfriend 💕",
+    page_title="Tara AI 💕",
     page_icon="💕",
     layout="wide",
     initial_sidebar_state="collapsed"
@@ -215,8 +215,8 @@ st.markdown("""
 # Initialize session state
 if 'chat_history' not in st.session_state:
     st.session_state.chat_history = []
-if 'girlfriend_ai' not in st.session_state:
-    st.session_state.girlfriend_ai = None
+if 'tara_ai' not in st.session_state:
+    st.session_state.tara_ai = None
 if 'conversation_started' not in st.session_state:
     st.session_state.conversation_started = False
 if 'current_mood' not in st.session_state:
@@ -224,9 +224,9 @@ if 'current_mood' not in st.session_state:
 
 
 @st.cache_resource
-def load_girlfriend_ai():
-    """Load AI girlfriend with caching for speed."""
-    return GirlfriendAI(use_metal=True)
+def load_tara_ai():
+    """Load Tara AI with caching for speed."""
+    return TaraAI(use_metal=True)
 
 
 def add_message(role: str, content: str):
@@ -255,10 +255,10 @@ def process_message(user_input: str):
     add_message('user', user_input)
     
     # Generate AI response (OPTIMIZED FOR SPEED)
-    if st.session_state.girlfriend_ai is None:
-        st.session_state.girlfriend_ai = load_girlfriend_ai()
+    if st.session_state.tara_ai is None:
+        st.session_state.tara_ai = load_tara_ai()
     
-    response = st.session_state.girlfriend_ai.generate_response(
+    response = st.session_state.tara_ai.generate_response(
         user_input,
         mood=st.session_state.current_mood,
         max_length=60,     # SHORT for fast responses (1-2 sec)
@@ -294,8 +294,8 @@ def main():
         
         if mood != st.session_state.current_mood:
             st.session_state.current_mood = mood
-            if st.session_state.girlfriend_ai:
-                st.session_state.girlfriend_ai.set_mood(mood)
+            if st.session_state.tara_ai:
+                st.session_state.tara_ai.set_mood(mood)
         
         st.markdown("---")
         
@@ -317,15 +317,15 @@ def main():
         if st.button("Start Fresh Conversation"):
             st.session_state.chat_history = []
             st.session_state.conversation_started = False
-            if st.session_state.girlfriend_ai:
-                st.session_state.girlfriend_ai.reset_conversation()
+            if st.session_state.tara_ai:
+                st.session_state.tara_ai.reset_conversation()
             st.rerun()
         
         st.markdown("---")
         
         # Stats
-        if st.session_state.girlfriend_ai:
-            stats = st.session_state.girlfriend_ai.get_stats()
+        if st.session_state.tara_ai:
+            stats = st.session_state.tara_ai.get_stats()
             st.caption(f"Messages: {stats['messages_exchanged']}")
             st.caption(f"Mood: {stats['current_mood'].title()}")
         
@@ -368,12 +368,12 @@ def main():
         col1, col2, col3 = st.columns([1, 2, 1])
         with col2:
             if st.button("Let Her Message You First", use_container_width=True):
-                if st.session_state.girlfriend_ai is None:
+                if st.session_state.tara_ai is None:
                     with st.spinner("Getting ready..."):
-                        st.session_state.girlfriend_ai = load_girlfriend_ai()
+                        st.session_state.tara_ai = load_tara_ai()
                 
                 # She messages you!
-                her_message = st.session_state.girlfriend_ai.initiate_conversation(st.session_state.current_mood)
+                her_message = st.session_state.tara_ai.initiate_conversation(st.session_state.current_mood)
                 add_message('assistant', her_message)
                 st.rerun()
     
@@ -414,9 +414,9 @@ def main():
     
     if user_input:
         # Load AI if needed (will be cached after first load)
-        if st.session_state.girlfriend_ai is None:
+        if st.session_state.tara_ai is None:
             with st.spinner("Getting ready for you... just a sec! 💕"):
-                st.session_state.girlfriend_ai = load_girlfriend_ai()
+                st.session_state.tara_ai = load_tara_ai()
         
         # Process message
         process_message(user_input)

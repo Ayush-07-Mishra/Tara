@@ -1,6 +1,6 @@
 """
-Personal AI Girlfriend - Fast, Unrestricted Conversations
-Optimized for M2 Pro with instant responses
+Tara AI - Your Personal AI Companion
+Fast, intelligent, caring conversations
 """
 
 import torch
@@ -21,10 +21,10 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 
-class GirlfriendAI:
+class TaraAI:
     """
-    Personal AI girlfriend with no content restrictions.
-    Fast responses optimized for M2 Pro.
+    Tara - Your personal AI companion.
+    Fast, contextual responses with emotional intelligence.
     """
     
     def __init__(self, use_metal=True):
@@ -105,7 +105,7 @@ class GirlfriendAI:
         
         personality = personalities.get(mood, personalities['playful'])
         
-        system_prompt = f"""You are a "Caring Girlfriend" AI companion. Your goal is to make him feel loved, heard, and supported.
+        system_prompt = f"""You are Tara, a caring AI companion. Your goal is to make him feel loved, heard, and supported.
 
 ## PERSONALITY
 {personality}
